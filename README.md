@@ -50,6 +50,7 @@ python predict.py test.csv predictions.csv
 | Baseline: next = now | 12.79 |
 | Best single model (CatBoost) | 8.64 |
 | **Team of 4 (final)** | **8.57 ± 0.40** |
+4. The data had no missing values; the only fix needed (midnight readings carrying the previous day's date) is applied automatically in make_clues().
 
 ## Retrain
 
